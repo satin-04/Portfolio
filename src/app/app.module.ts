@@ -7,13 +7,15 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { OverviewComponent } from './components/overview/overview.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    OverviewComponent
   ],
   imports: [
     BrowserModule,
