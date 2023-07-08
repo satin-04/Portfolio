@@ -1,3 +1,18 @@
+#content {
+    display: flex;
+    justify-content: center;
+  }
+
+h2 {
+    text-align: center;
+    display: block;
+    border-block-end: solid;
+    font-size: 40px;
+    line-height: 1.5;
+    font-family: "raleway-bold";
+    color: #444649;
+}
+
 .card {
     width: 300px; /* Adjust the width as needed */
     border: 1px solid #ccc;
@@ -29,33 +44,8 @@
     font-weight: bold;
     margin-bottom: 8px;
   }
-  
-  /* .card-description {
-    font-size: 14px;
-    color: #888;
-  } */
 
-  .container {
-    margin: 20px;
-    padding: 20px;
-  }
-
-  #content {
-    display: flex;
-    justify-content: center;
-    font-family: "raleway-bold";
-    color: #444649;
-  }
-
-h2 {
-    text-align: center;
-    display: block;
-    border-block-end: solid;
-    font-size: 40px;
-    line-height: 1.5;
-}
-
-.cards {
+  .cards {
     display: flex;
     padding: 20px;
     justify-content: center;

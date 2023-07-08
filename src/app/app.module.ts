@@ -8,6 +8,9 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { OverviewComponent } from './components/overview/overview.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+
+
 
 @NgModule({
   declarations: [
@@ -15,7 +18,8 @@ import { OverviewComponent } from './components/overview/overview.component';
     HeaderComponent,
     HomeComponent,
     AboutComponent,
-    OverviewComponent
+    OverviewComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
