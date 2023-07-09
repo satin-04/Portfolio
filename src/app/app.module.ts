@@ -9,7 +9,7 @@ import { AboutComponent } from './components/about/about.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { OverviewComponent } from './components/overview/overview.component';
 import { ProjectsComponent } from './components/projects/projects.component';
-
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -24,7 +24,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatGridListModule
+    MatGridListModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -15,7 +15,7 @@
   
   .card-img {
     width: 100%;
-    height: auto;
+    height: 250px;
     display: block;
   }
   
@@ -50,9 +50,11 @@
 h2 {
     text-align: center;
     display: block;
-    border-block-end: solid;
+    border-block-end: solid 10px;
     font-size: 40px;
     line-height: 1.5;
+    font-family: "raleway-bold";
+    color: #444649;
 }
 
 .cards {
