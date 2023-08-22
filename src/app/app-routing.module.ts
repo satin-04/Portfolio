@@ -7,32 +7,34 @@ import { AboutComponent } from './components/about/about.component';
 import { OverviewComponent } from './components/overview/overview.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 
-const routes: Routes = [
-  {
-    component: HomeComponent,
-    path: "portfolio",
+// const routes: Routes = [
+//   {
+//     component: HomeComponent,
+//     path: "home",
 
-  },
-  {
-    component: AboutComponent,
-    path: "portfolio",
+//   },
+//   {
+//     component: AboutComponent,
+//     path: "about",
     
-  },
-  {
-    component: OverviewComponent,
-    path: "portfolio",
+//   },
+//   {
+//     component: OverviewComponent,
+//     path: "overview",
     
-  },
-  {
-    component: ProjectsComponent,
-    path: "portfolio",
+//   },
+//   {
+//     component: ProjectsComponent,
+//     path: "projects",
     
-  }
-]
+//   }
+// ]
 
 @NgModule({
   declarations: [],
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  // imports: [RouterModule.forRoot(routes)],
+  // exports: [RouterModule]
+  imports: [],
+  exports: []
 })
 export class AppRoutingModule { }
